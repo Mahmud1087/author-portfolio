@@ -44,6 +44,12 @@
   --radius-2xl: calc(var(--radius) + 8px);
   --radius-3xl: calc(var(--radius) + 12px);
   --radius-4xl: calc(var(--radius) + 16px);
+
+  /* Fonts */
+  --font-josefin: "Josefin Sans", sans-serif;
+  --font-berkshire: "Berkshire Swash", serif;
+  --font-dancing-script: "Dancing Script", sans-serif;
+  --font-lobster-two: "Lobster Two", sans-serif;
 }
 
 :root {
@@ -120,6 +126,23 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background font-josefin text-foreground;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-lobster-two;
+  }
+
+  a {
+    @apply font-josefin;
+  }
+
+  button {
+    cursor: pointer;
   }
 }
