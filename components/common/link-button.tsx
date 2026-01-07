@@ -19,7 +19,11 @@ export default function LinkButton({
   };
 
   return (
-    <Link href={href} className={`${base} ${variants[variant]}`}>
+    <Link
+      href={href}
+      target="_blank"
+      className={`${base} ${variants[variant]}`}
+    >
       {children}
     </Link>
   );
