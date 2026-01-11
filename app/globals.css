@@ -145,4 +145,20 @@
   button {
     cursor: pointer;
   }
+
+  .wrapper {
+    @apply container mx-auto px-4 md:px-6 lg:px-8;
+  }
+
+  .flex-row-between {
+    @apply flex w-full items-center justify-between;
+  }
+
+  .flex-column {
+    @apply flex flex-col;
+  }
+
+  .flex-center {
+    @apply flex items-center justify-center;
+  }
 }

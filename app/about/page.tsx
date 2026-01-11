@@ -1,11 +1,12 @@
+import AboutHeroSection from "@/components/about/hero";
 import BackToTopButton from "@/components/common/back-to-top";
 import Navbar from "@/components/common/navbar";
 
 const items = [
-  {
-    name: "Home",
-    link: "/about",
-  },
+  // {
+  //   name: "Home",
+  //   link: "/about",
+  // },
   {
     name: "Bio",
     link: "/about/#bio",
@@ -24,7 +25,9 @@ const AboutMePage = () => {
   return (
     <div>
       <Navbar items={items} />
-      <main className="min-h-[220vh]"></main>
+      <main className="min-h-[220vh] w-full">
+        <AboutHeroSection />
+      </main>
       <BackToTopButton />
     </div>
   );

@@ -17,7 +17,7 @@ const Navbar = ({ items }: Props) => {
 
   return (
     <nav className="border-b bg-purple-50 py-5 shadow">
-      <div className="container mx-auto flex items-center justify-between px-4 md:px-6 lg:px-8">
+      <div className="mx-auto flex items-center justify-between px-4 md:px-16 lg:container lg:px-8">
         <Logo />
         <section className="flex gap-5 lg:gap-9">
           {items?.map((item, i) => {
