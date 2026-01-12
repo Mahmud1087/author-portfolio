@@ -23,7 +23,7 @@ const AboutHeroSection = () => {
         </div>
         <aside className="wrapper lg:px-44">
           <div className="relative h-120 w-140">
-            <aside className="absolute top-0 left-0 h-full w-full bg-black/50" />
+            <aside className="absolute top-0 left-0 h-full w-full rounded-xl bg-black/50" />
             <Image
               src={
                 "https://images.unsplash.com/photo-1680977228133-b1f9634ad044?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -31,7 +31,7 @@ const AboutHeroSection = () => {
               alt="Author Image"
               width={600}
               height={600}
-              className="h-full w-full object-cover"
+              className="h-full w-full rounded-xl object-cover shadow-xl drop-shadow-2xl"
             />
             <h1 className="absolute top-1/2 -right-120 -translate-y-1/2 text-6xl text-purple-800">
               <span className="text-orange-400">Rafia</span>t O. Abdulazeez

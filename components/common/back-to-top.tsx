@@ -3,9 +3,11 @@
 import { useEffect, useState } from "react";
 import { ArrowUp } from "lucide-react";
 import { Button } from "../ui/button";
+import { useRouter } from "next/navigation";
 
 const BackToTopButton = () => {
   const [isVisible, setIsVisible] = useState(false);
+  const router = useRouter();
 
   // Show button when page is scrolled down
   const toggleVisibility = () => {
@@ -23,6 +25,7 @@ const BackToTopButton = () => {
       top: 0,
       behavior: "smooth", // Smooth scrolling effect
     });
+    router.push("");
   };
 
   useEffect(() => {
