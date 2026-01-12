@@ -4,10 +4,10 @@ import { Button } from "../ui/button";
 const BioSection = () => {
   return (
     <section id="bio" className="wrapper px-4 md:px-16 lg:container lg:px-8">
-      <div className="mt-5 flex flex-col gap-16 px-4 py-20 lg:mt-10 lg:flex-row lg:items-center lg:justify-between lg:py-44">
+      <div className="mt-5 flex flex-col gap-16 px-4 py-20 lg:flex-row lg:items-center lg:justify-between lg:py-32">
         <aside className="w-full">
-          <h1 className="mb-5 font-berkshire text-5xl">My Bio</h1>
-          <p className="mb-5 text-xl">
+          <h1 className="mb-5 font-berkshire text-3xl md:text-5xl">My Bio</h1>
+          <p className="mb-5 text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. At, nemo.
             Totam eius repellendus assumenda aut culpa nesciunt laboriosam sed
             ipsum iure voluptatum exercitationem aperiam incidunt, veritatis sit
